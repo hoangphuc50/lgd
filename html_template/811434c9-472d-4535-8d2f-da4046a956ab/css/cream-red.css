@@ -1,0 +1,120 @@
+/* Cream / Red Style */
+
+/* Background */
+body {
+	background: url(../images/bg.png) #f5e9cc fixed;
+}
+
+.background-wrapper {
+	background: url(../images/bgstar.jpg) bottom center fixed;
+}
+
+/* Title decorations */
+#title-wrapper .title-dec-left {
+	position: absolute;
+	left: -50px;
+	top: 8px;
+	background: url(../images/dec-left.png) no-repeat;
+	width: 38px;
+	height: 17px;
+}
+
+#title-wrapper .title-dec-right {
+	position: absolute;
+	right: -50px;
+	top: 8px;
+	background: url(../images/dec-right.png) no-repeat;
+	width: 38px;
+	height: 17px;
+}
+
+/* The main colour */
+#navigation, #main-menu ul, blockquote, .page-content table, .sidebar table, .ui-tabs .ui-tabs-nav li.ui-tabs-selected, .booknow, .booknow-accompage,
+.ui-datepicker .ui-state-highlight, .ui-datepicker .ui-state-default:hover, .ui-datepicker .ui-widget-content .ui-state-default:hover, 
+.ui-datepicker .ui-widget-header .ui-state-default:hover, .accommodation_img_price, .mobile-booknow {
+	border-color: #01307f;
+}
+
+.title-end, .blog-title .comment-count, .blog-title-single .comment-count, .event-prev .event-prev-date, #ui-datepicker-div .ui-datepicker-header,
+.widget .widget-title h5 {
+	background: #01307f;
+}
+
+.button1, .bookbutton {
+	background: url(../images/gradient1.png) #01307f bottom left repeat-x;
+}
+
+.button1:hover, .bookbutton:hover {
+	background: url(../images/gradient1h.png) #01307f left bottom repeat-x;
+}
+
+.blog-title .comment-count .comment-point,
+.blog-title-single .comment-count .comment-point {
+	background: url(../images/comment-point.png) #01307f no-repeat;
+}
+
+.slider .flex-direction-nav .flex-prev, .slider .flex-direction-nav .flex-next, #twitter_icon:hover, #facebook_icon:hover, #googleplus_icon:hover, #skype_icon:hover, 
+#flickr_icon:hover, #linkedin_icon:hover, #vimeo_icon:hover, #youtube_icon:hover, #rss_icon:hover {
+	background-color: #01307f;
+}
+
+.accordion h4.ui-state-active, .toggle .active, .page-content a, .page-full a, .sidebar a:hover, .blog-title-single h2 a,
+.ui-datepicker .ui-state-highlight, .ui-datepicker .ui-state-default:hover, .ui-datepicker .ui-widget-content .ui-state-default:hover, 
+.ui-datepicker .ui-widget-header .ui-state-default:hover, #footer a:hover, #footer-bottom a:hover, .page-pagination a {
+	color: #01307f;
+}
+
+.widget .widget-title h5:before {
+	border-color: #01307f transparent;
+}
+
+/* Main colour in rgba format @ 70% transparency */
+.flex-caption {
+	background: rgba(3, 106, 218, 0.49);
+}
+
+/* Main colour in format for IE, "80E26143" is the colour #01307f, the "80" added to the front give 80% */
+.ie8 .flex-caption {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80E26143,endColorstr=#80E26143);
+}
+
+/* A darker shade of the main colour */
+.corner-left { 
+	border-top: 20px solid;
+	border-color: #00235d;
+	border-left: 20px solid transparent; 
+}
+
+.corner-right { 
+	border-top: 20px solid; 
+	border-color: #00235d;
+	border-right: 20px solid transparent;
+}
+
+.corner-right-small {
+	border-top: 8px solid; 
+	border-color: #00235d;
+	border-right: 8px solid transparent;
+}
+
+/* Feature background colour */
+.top-bar, .gmap-btn-wrapper, #navigation, .booknow-accompage, .booknow, #footer, .accommodation_img_price, .mobile-booknow {
+	background: url(../images/bgd.png) #006fc4;
+}
+
+#footer-bottom {
+	background: #01307f;
+	color: #fff;
+}
+
+.booknow-accompage .price-detail, #main-menu li span, .widget .latest-posts-list li .lpl-content h6 span {
+	color: #fff;
+}
+
+#main-menu li, .main-menu-contact-info li, #footer .widget ul li, #footer .widget .wp-tag-cloud li, #footer .widget .wp-tag-cloud li:last-child {
+	border-color: #01307f;
+}
+
+#footer {
+	color: #fff;
+}

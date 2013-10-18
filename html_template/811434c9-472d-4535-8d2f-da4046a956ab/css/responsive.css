@@ -1,0 +1,599 @@
+#navigation select {
+	display: none;
+	width: 100%;
+	padding: 1%;
+	background: #fff;
+	color: #777;
+	border: none;
+	font-size: 14px;
+	margin: 20px 0;
+	float: left;
+}
+
+.nav-contact select {
+	width: 60% !important;
+}
+
+#mobile-menu {
+	display: none;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1100px) {
+	.block-img12 img {
+	float: left;
+    height: 165px;
+    padding: 0 10px 10px 0;
+    width: 275px;
+}
+	.content-wrapper {
+		width: 100%;
+	}
+
+	.content-body {
+		width: 90%;
+	}
+	
+	#navigation {
+		width: 100%;
+		padding: 0 !important;
+		position: none;
+		left: 0;
+	}
+	
+	.nav-wrapper {
+		width: 95%;
+		padding: 0 2.5%;
+	}
+	
+	.booknow {
+		left: 0;
+	}
+	
+	.booknow .corner-left {
+		display: none;
+	}
+	
+	#navigation .corner-left,
+	#navigation .corner-right {
+		display: none;
+	}
+	
+	#main-menu {
+		max-width: 100%;
+	}
+
+	.nav-contact #main-menu {
+		max-width: 73%;
+	}
+	
+	.featured-bottom {
+		display: none;
+	}
+	
+	.featured-wrapper {
+		border-bottom: #e4e4e4 1px solid;
+	}
+	
+	.testimonial-image {
+		width: 10%;
+	}
+	
+	.testimonial-author {
+		margin: 20px 0 0 8% !important;
+	}
+	
+	.booknow-accompage {
+		width: 100%;
+	}
+	
+	#footer .flickr_badge_wrapper .flickr_badge_image:nth-child(3n+1) {
+		margin: 0 8px 8px 0;
+	}
+	
+	.even-cols .one-half {
+		width: 48% !important;
+	}
+	
+	.booking-form-accompage .text-input {
+		width: 94% !important;
+		padding: 3% !important;
+		text-indent: 3%;
+		float: left;
+	}
+	
+	.booking-form-accompage .input-half {
+		width: 41% !important;
+		padding: 3% !important;
+		text-indent: 3%;
+		margin: 0 0 15px 0 !important;
+	}
+	
+	.booknow-accompage {
+		width: 92%;
+	}
+	
+	.booking-form-accompage {
+		width: 60%;
+	}
+	
+	.booknow-accompage .book-price {
+		width: 35%;
+	}
+	
+	.booking-cols .one-half {
+		width: 60% !important;
+	}
+	
+	.booking-cols .full-booking-form {
+		height: 460px !important;
+	}
+	
+	.home-blocks .one-third-full img {
+		width: 100%;
+		max-width: 278px;
+	}
+	
+}
+
+@media only screen and (max-width: 900px) {
+	
+	#main-menu {
+		display: none;
+	}
+	
+	#navigation select {
+		display: block;
+	}
+	
+	.booknow {
+		width: 100%;
+		height: auto;
+		padding: 30px 0;
+		position: absolute;
+		bottom: -10% !important;
+		margin: 0 0 44px 0;
+	}
+	
+	.booknow-wrapper {
+		width: 92%;
+		padding: 0 4%;
+	}
+	
+	.slider-booking {
+		padding: 0 0 176px 0;
+	}
+	
+	.booking-form select {
+		width: 100%;
+		background: #fff;
+		padding: 1%;
+		height: auto;
+		font-size: 14px;
+	}
+	
+	.select-wrapper {
+		height: 32px;
+		background: none;
+	}
+	
+	.datepicker, .page-content .datepicker {
+		padding: 5px;
+	}
+	
+	#ui-datepicker-div {
+		width: 80% !important;
+	}
+	
+	#ui-datepicker-div a {
+		line-height: 300%;
+	}
+	
+	.input-half {
+		font-size: 14px !important;
+		padding: 1% !important;
+		width: 47% !important;
+		margin: 0 0 15px 0 !important;
+		text-indent: 10px;
+	}
+	
+	.sidebar .select-wrapper {
+		height: 27px;
+	}
+	
+	.sidebar .booking-form select,
+	#footer .booking-form select {
+		padding: 2% !important;
+	}
+	
+	.sidebar .input-half,
+	#footer .input-half {
+		padding: 2% !important;
+		width: 44% !important;
+	}
+	
+	.accommodation-single-page .one-half {
+		width: 100% !important;
+	}
+	
+	.booknow-accompage {
+		margin: 0 0 30px 0;
+	}
+	
+	.booking-form-accompage .text-input {
+		width: 96% !important;
+		padding: 2% !important;
+		text-indent: 2%;
+		float: right;
+	}
+	
+	.booking-form-accompage .input-half {
+		width: 44% !important;
+		padding: 2% !important;
+		text-indent: 2%;
+		margin: 0 0 15px 0 !important;
+	}
+	
+	.booknow-accompage {
+		height: 114px;
+	}
+	
+	.booking-cols .full-booking-form {
+		height: 400px !important;
+	}
+	
+	.one-forth {
+		width: 46.5%;
+	}
+	
+	#footer .one-forth {
+		margin: 0 0 30px 0 !important;
+	}
+	
+}
+
+@media only screen and (max-width: 767px) {
+	
+	.social-icons {
+		display: none;
+	}
+	
+	#footer .two-forths,
+	#footer .one-forth {
+		width: 48% !important;
+		margin: 0 3% 30px 0 !important;
+	}
+	
+	#footer .one-forth {
+		margin: 0 0 30px 0 !important;
+	}
+	
+	#footer .last-col {
+		margin: 0 !important;
+	}
+	
+	.one-half {
+		width: 100%;
+	}
+	
+	.accommodation-page hr {
+		margin: 40px 0 0 0;
+	}
+	
+	.sidebar .input-half,
+	#footer .input-half {
+		width: 44% !important;
+	}
+	
+	.main-content {
+		width: 100%;
+		margin: 0;
+		border-bottom: #dee0e0 1px solid;
+	}
+	
+	.page-content {
+		padding: 0 4%;
+	}
+	
+	.full-width-page {
+		padding: 30px 4% 0 4%;
+	}
+	
+	.sidebar {
+		width: 92%;
+		padding: 0 4%;
+	}
+	
+	.one-third-full, .featured-wrapper {
+		width: 90% !important;
+		padding: 30px 5% 0 5%;
+	}
+	
+	.sidebar .select-wrapper {
+		height: 40px;
+	}
+	
+	.sidebar .booknow {
+	    padding: 3%;
+	    width: 97%;
+	}
+	
+	.widget .latest-posts-list li .lpl-img {
+		margin: 0 3% 0 0;
+	}
+	
+	.blog-title-single {
+		padding: 0 4% 0 0;
+	}
+	
+	.main-content-right .page-title {
+	    padding: 30px 20px;
+	}
+	
+	.main-content-right .page-content {
+	    padding: 0 20px 30px 20px;
+	}
+	
+	.sidebar-left {
+	    padding: 0;
+	}
+	
+	.one-third {
+		width: 100%;
+	}
+	
+	.booking-cols .one-half {
+		width: 80% !important;
+	}
+	
+	.gallery-page .one-third-full {
+		width: 44% !important;
+		padding: 30px 0 0 4% !important;
+	}
+	
+	.featured-wrapper {
+		background: none;
+		border: 0;
+		margin: 0;
+	}
+	
+	.home-blocks .one-third-full:last-child {
+		padding: 30px 5% 30px 5%;
+	}
+	
+	.page-full .page-title {
+		padding: 30px 0 30px 4%;
+	}
+	
+}
+
+@media only screen and (max-width: 667px) {
+	.chuyenmuc-ghichu img
+	{width:100% !important;float:none;
+    padding:0;}	
+		.block-img12 img {
+	width: 100%;
+    height:165px;
+    float:none;
+    padding:0;
+}
+	.main-menu-contact-info {
+		display: none;
+	}
+	
+	#navigation select,
+	.nav-contact select {
+		width: 100% !important;
+	}
+	
+	.testimonial-item-home {
+		padding: 30px 5% 0 5% !important;
+	}
+	
+	.testimonial-item-home-last {
+		padding: 30px 5% 20px 5% !important;
+	}
+	
+	.testimonial-author {
+	    margin: 20px 0 0 5% !important;
+	}
+	
+	#footer .two-forths,
+	#footer .one-forth {
+		width: 100% !important;
+		margin: 0 0 30px 0 !important;
+	}
+	
+	#footer .last-col {
+		margin: 0;
+	}
+	
+	.testimonials-home .one-half-full {
+		width: 90%;
+	}
+	
+	.testimonial-item-home-last {
+	    padding: 30px 5% 0 0;
+	}
+	
+	.last-col-full {
+	    padding: 4% 3%;
+	}
+	
+	.flex-caption {
+		display: none;
+	}
+	
+	.booknow {
+		margin: 0 0 41px 0;
+	}
+	
+	.slider-booking {
+		padding: 0 0 182px 0;
+	}
+	
+	.input-half {
+		width: 46% !important;
+	}
+	
+	.sidebar .select-wrapper {
+		height: 35px;
+	}
+	
+	.sidebar .booknow {
+	    padding: 5%;
+	    width: 95%;
+	}
+	
+	.page-content textarea {
+		width: 90%;
+	}
+	
+	.booknow-accompage {
+		width: 91%;
+	}
+	
+	.booking-form-accompage .text-input {
+		width: 92% !important;
+		padding: 4% !important;
+		text-indent: 4%;
+		float: right;
+	}
+	
+	.booking-form-accompage .input-half {
+		width: 92% !important;
+		padding: 4% !important;
+		text-indent: 4%;
+		margin: 0 0 15px 0 !important;
+	}
+	
+	.booking-form-accompage .datepicker {
+		background: url(../images/date.png) no-repeat 95% 50% #fff !important;
+	}
+	
+	.booknow-accompage {
+		height: 180px;
+	}
+	
+	.booking-cols .one-half {
+		width: 100% !important;
+	}
+	
+	.booking-cols .full-booking-form {
+		height: 550px !important;
+	}
+	
+}
+
+@media only screen and (max-width: 480px) {
+	.chuyenmuc-ghichu img
+	{width:100% !important;float:none;
+    padding:0;}	
+		.block-img12 img {
+	width: 100%;
+
+    float:none;
+    padding:0;
+}
+	#title-wrapper h1 {
+		font-size: 24px;
+	}
+	
+	#title-wrapper h1 span {
+		font-size: 10px;
+		margin: 0;
+	}
+	
+	#title-wrapper .title-dec-right,
+	#title-wrapper .title-dec-left {
+		display: none;
+	}
+	
+	.slider-booking {
+		padding: 0 0 182px 0;
+	}
+	
+	.nav-wrapper {
+		padding: 0 4% !important;
+		width: 92% !important;
+	}
+	
+	.sidebar .select-wrapper {
+		height: 33px;
+	}
+	
+	.booknow-accompage {
+		width: 89%;
+	}
+	
+	.booknow-accompage .price {
+		font-size: 32px;
+		padding: 32px 0 0 0;
+	}
+	
+	.booknow-accompage .price-detail {
+		font-size: 16px;
+		margin: 5px 0 0 0;
+	}
+	
+	.booknow-accompage {
+		height: 160px;
+	}
+	
+	.booknow-accompage .book-price {
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+	
+	.booking-form-accompage {
+		width: 100%;
+	}
+	
+ 	.booknow-accompage .price {
+	    font-size: 42px;
+	    padding: 29px 0 0;
+	}
+	
+	.booknow-accompage .price-detail {
+		font-size: 20px;
+		margin: 13px 0 0 0;
+	}
+	
+	.booking-cols .full-booking-form {
+		height: 705px !important;
+	}
+	
+	.booknow-accompage {
+		height: 325px !important;
+	}
+	
+	.gallery-page .one-third-full {
+		width: 92% !important;
+	}
+	.chuyenmuc-ghichu img
+	{width:100% !important;float:none;
+    padding:0;}	
+	
+}
+
+@media only screen and (max-width: 320px) {
+	.block-img12 img {
+	width: 100%;
+    float:none;
+    padding:0;
+}
+	.booknow-accompage {
+		width: 84%;
+	}
+	
+	.booking-cols .one-half {
+		width: 95% !important;
+	}
+	
+	.top-menu-wrapper .button1 {
+		display: none;
+	}
+	.chuyenmuc-ghichu img
+	{width:100% !important;float:none;
+    padding:0;}	
+}
